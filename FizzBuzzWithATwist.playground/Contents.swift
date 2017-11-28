@@ -2,7 +2,7 @@
 import Foundation
 
 //: ## Given a function:
-func fizzBuzz(_ numbers: [Int]) -> Int {
+func fizzBuzz(_ numbers: [Int]) -> [String] {
     
 }
 
