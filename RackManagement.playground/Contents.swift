@@ -1,9 +1,7 @@
-//: # Rack management
-
 /*:
- ## Source
- https://www.reddit.com/r/dailyprogrammer/comments/5go843/20161205_challenge_294_easy_rack_management_1/
- */
+ # Rack management
+ Source: [/r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer/comments/5go843/20161205_challenge_294_easy_rack_management_1/)
+*/
 
 import Foundation
 
@@ -18,7 +16,7 @@ func scrabble(_ rack: String, _ word: String) -> Bool {
  */
 
 /*:
- # Return a Bool that determines whether you can make the given word using the given tiles.
+ ## Return a Bool that determines whether you can make the given word using the given tiles.
  
  ```
  print(scrabble("ladilmy", "daily")) // Prints true
