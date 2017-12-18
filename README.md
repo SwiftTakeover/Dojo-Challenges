@@ -27,7 +27,7 @@ One of the trials is to handle capitalisation.
 
 If you don't want to face the trial, simply comment out the test.
 
-### Rendered Markup
+## Rendered Markup
 Xcode should show markup text in the playground files. If you see raw markup like this:
 
 ![Raw Markup for Swift Challenge](https://user-images.githubusercontent.com/10298140/34116411-d89511d6-e418-11e7-8ba8-941faee12b33.png)
