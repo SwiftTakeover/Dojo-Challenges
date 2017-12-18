@@ -43,7 +43,7 @@ class RackManagementTests: XCTestCase {
 RackManagementTests.defaultTestSuite.run()
 
 /*:
- ## Optional Bonus 1
+ ## Trial 1
  Handle blank tiles (represented by "?").
  These are "wild card" tiles that can stand in for any single letter.
  */
@@ -60,7 +60,7 @@ class BlankTilesRackManagementTests: XCTestCase {
 BlankTilesRackManagementTests.defaultTestSuite.run()
 
 /*:
- ## Optional Bonus 2
+ ## Trial 2
  Given a set of up to 20 letter tiles, determine the longest word from the enable1 English word list that can be formed using the tiles.
  
  ```
@@ -75,7 +75,7 @@ BlankTilesRackManagementTests.defaultTestSuite.run()
  Use the `downloadWordList` function to get the word list.
  */
 
-/// Synchronously downloads words for the Optional Bonus 2
+/// Synchronously downloads words for the Trial 2
 /// - returns: English word list
 func downloadWordList() -> [String] {
     let url = URL(string: "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/dotnetperls-controls/enable1.txt")

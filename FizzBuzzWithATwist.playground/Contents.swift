@@ -26,7 +26,7 @@ func fizzBuzz(_ numbers: [Int]) -> [String] {
  */
 
 /*:
- ## Further Challenges:
+ ## Further Trials:
  - TDD your solution
  - 'Fizz' if the number at the same index is divisible by 3, or has a 3 in it
  - 'Buzz' if the number at the same index is divisible by 5, or has a 5 in it

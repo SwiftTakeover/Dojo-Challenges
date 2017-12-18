@@ -55,7 +55,7 @@ If the challenge is too hard, only make it work for arrays of even numbers and i
 FindOutlierTests.defaultTestSuite.run()
 
 /*:
- ## Hard Modification:
+ ## Trial:
  Handle negative numbers
  */
 
@@ -69,7 +69,7 @@ class NegativeFindOutlierTests: XCTestCase {
 NegativeFindOutlierTests.defaultTestSuite.run()
 
 /*:
- ## Hard Modification:
+ ## Trial:
  Add validation to your function. If incorrect data is passed to your function, return 0
 */
 class InvalidDataFindOutlierTests: XCTestCase {

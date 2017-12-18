@@ -24,7 +24,7 @@ class ConvertToNATOTests: XCTestCase {
     }
     
 /*:
- ## Challenge: handle multiple words
+ ## Trial: handle multiple words
 
  */
     
@@ -33,7 +33,7 @@ class ConvertToNATOTests: XCTestCase {
     }
     
 /*:
- ## Challenge: handle capitalisation
+ ## Trial: handle capitalisation
  */
     
     func testCapitalisation() {
@@ -41,7 +41,7 @@ class ConvertToNATOTests: XCTestCase {
     }
     
 /*:
- ## Challenge: handle punctuation
+ ## Trial: handle punctuation
  */
     
     func testPunctuation() {
