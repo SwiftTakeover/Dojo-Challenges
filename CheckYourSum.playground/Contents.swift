@@ -7,7 +7,10 @@ import Foundation
 
 //: ## Given a function:
 func calculateChecksum(_ input: [[Int]]) -> Int? {
-    
+    return input.reduce(0) {
+        guard let result = $0, let max = $1.max(), let min = $1.min() else { return nil }
+        return result + (max - min)
+    }
 }
 
 /*:
