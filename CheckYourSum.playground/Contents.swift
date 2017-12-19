@@ -6,7 +6,7 @@
 import Foundation
 
 //: ## Given a function:
-func calculateChecksum(_ input: [[Int]]) -> Int {
+func calculateChecksum(_ input: [[Int]]) -> Int? {
     
 }
 
@@ -59,3 +59,20 @@ class CalculateChecksumTests: XCTestCase {
     
 }
 CalculateChecksumTests.defaultTestSuite.run()
+
+/*:
+ ## Trial:
+ Validate input. The input is invalid if it contains an empty row. If the input is invalid, return `nil`.
+ */
+class InputValidationTests: XCTestCase {
+    
+    func testInvalidInput() {
+        XCTAssertNil(calculateChecksum([[]]))
+    }
+    
+    func testValidInput() {
+        XCTAssertEqual(calculateChecksum([]), 0)
+        XCTAssertNotNil(calculateChecksum([[1]]))
+    }
+}
+InputValidationTests.defaultTestSuite.run()
